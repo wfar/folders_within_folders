@@ -7,7 +7,6 @@ dir_name = 'example_dir'
 def make_file(dir_name):
     #Make initial directory to desired path.
     path = 'C:\\path\\to\\final\\destination'
-    dir_name = dir_name
     full_path = os.path.join(path, dir_name)
     os.mkdir(full_path)
 
